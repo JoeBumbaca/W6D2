@@ -10,12 +10,13 @@
 .x {
   background-color: white;
   font-size: 100px;
+  color: blue;
 }
 
 .o {
   background-color: white;
   font-size: 100px;
-  
+  color: red;
 }
 
 .black {
@@ -24,16 +25,18 @@
   flex-wrap: wrap;
   align-content: space-around;
   background-color: black;
-  width: 600px;
-  height: 600px;
-  border: 10px solid black;
+  width: 500px;
+  height: 500px;
+  /* border: 10px solid black; */
+  border-radius: 10px;
 }
 
 #square {
+  border-radius: 10px;
   border: 1px solid black;
-  width: 160px;
-  height: 160px;
-  margin: 0 10px;
+  width: 27%;
+  height: 27%;
+  margin: 5px 10px;
   cursor: pointer;
   list-style-type: none;
 }
